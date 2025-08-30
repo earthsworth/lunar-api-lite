@@ -2,7 +2,7 @@ package org.cubewhy.lunar_api.entity
 
 @Suppress("unused")
 enum class LunarLogoColor(
-    val color: Int,
+    val hexColor: Int,
 ) {
     BLACK(0x010101),
     WHITE(0xFFFFFF),

@@ -15,7 +15,7 @@ object CosmeticV1Factory {
         properties: CosmeticSettings
     ): LoginResponse = LoginResponse.newBuilder().apply {
         settings = cosmeticSettings(properties)
-        logoColor = logoColor
+        logoColor = CommonV1Factory.colorFromHex(properties.lunarLogoColor.hexColor)
         rankName = "Player"
 
         if (properties.lunarPlusState) {
