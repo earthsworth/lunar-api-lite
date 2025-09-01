@@ -10,13 +10,14 @@ If you are looking for the full implementation, please visit [this repo](https:/
 - [ ] Save cosmetics settings
 - [ ] Use emotes
 - [ ] Save emote settings
-- [ ] Game Metadata
+- [ ] Game Metadata API
 - [ ] Subscription service
 - [ ] Federation
 
-These features are not designed to be implemented
+These features are not planned to be implemented
 
-- [ ] Social system
+- Social system
+- Launcher metadata API
 
 ## Usage
 
